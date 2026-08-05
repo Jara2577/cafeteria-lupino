@@ -20,7 +20,13 @@ nav{
     gap: 20px;
     padding: 10px;
     justify-content:center;
+    @media (max-width: 768px){
+        nav{
+            flex-direction:column;
+        }
+    }
     
+}
 }
 main{
     display:flex;
