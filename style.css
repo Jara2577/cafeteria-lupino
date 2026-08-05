@@ -21,7 +21,7 @@ nav{
     padding: 10px;
     justify-content:center;
     @media (max-width: 768px){
-        nav{
+        .a{
             flex-direction:row;
         }
     }
