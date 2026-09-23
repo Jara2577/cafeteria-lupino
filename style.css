@@ -1,0 +1,89 @@
+body{
+    background-image: url(foto.jpg);
+    margin: 0;
+}
+header{
+    background:brown;
+    color:white;
+    padding: 20px;
+    text-align:center;
+}
+header h1{
+    font-size: 3rem;
+    font-family:georgia;
+    font-weight: normal;
+}
+nav{
+    background:burlywood;
+    display:flex;
+    text-align:center;
+    gap: 20px;
+    padding: 10px;
+    justify-content:center;
+}
+main{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 400px;
+}
+.Bienvenida{
+    width: 400px;
+    background:white;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    text-align:center;
+    box-shadow: 5px 5px 15px gray;
+}
+.productos{
+    display:flex;
+    justify-content:space-around;
+    gap:20px;
+    flex-wrap:wrap;
+}
+.tarjeta{
+    background:white;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    text-align:center;
+    box-shadow: 5px 5px 15px gray;
+}
+footer {
+    background:brown;
+     padding: 20px;
+     display:flex;
+     flex-direction:column;
+     align-items:center;
+     gap: 15px;
+   
+}
+footer a{
+    color:blue;
+}
+button{
+    background:burlywood;
+    transform: scale(1.05);
+    opacity: 1;
+    cursor: pointer;
+}
+footer p{
+    font-size: 20px;
+    color:white;
+}
+a{
+   margin: 0px;
+}
+img{
+    max-width:100%;
+    height:auto;
+}
+@media (max-width: 600px){
+    .productos{
+        flex-direction:column};
+        .tarjeta{
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
